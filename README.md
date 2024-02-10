@@ -19,13 +19,10 @@ TuneWave is a project inspired by the popular music streaming platform, Wynk Mus
 - CSS3
 - JavaScript
 
-## **Contributions:**
-Contributions and feedback are welcome! Whether you're interested in adding new features, fixing bugs, or improving performance, feel free to fork this repository and submit pull requests. Together, let's make TuneWave the best music streaming experience for users.
-
 ## **Get Started:**
-To get started with TuneWave, clone this repository to your local machine and follow the setup instructions in the README.md file.
+To get started with TuneWave Locally (else visit the remote website : https://musicplayer.wuaze.com) , clone this repository to your local machine and follow the setup instructions.
 
-Sure, here are the setup instructions for running your TuneWave project on localhost:
+Here are the setup instructions for running your TuneWave project on localhost:
 
 ## **Setup Instructions for Localhost:**
 
@@ -91,3 +88,7 @@ Sure, here are the setup instructions for running your TuneWave project on local
 
 5. **Explore**: 
    Enjoy exploring TuneWave! Stream music, create playlists, and discover new tracks.
+
+## **Contributions:**
+Contributions and feedback are welcome! Whether you're interested in adding new features, fixing bugs, or improving performance, feel free to fork this repository and submit pull requests. Together, let's make TuneWave the best music streaming experience for users.
+

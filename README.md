@@ -6,7 +6,7 @@ A Wynk Music inspired clone offering seamless audio listening, personalized play
 **Description:**
 TuneWave is a project inspired by the popular music streaming platform, Wynk Music. It serves as a clone, replicating some of the key features and functionalities of Wynk Music while adding unique elements and customization options. With TuneWave, users can enjoy seamless music streaming, create personalized playlists, explore a vast library of songs, and discover new tracks based on their preferences. The project is built using cutting-edge technologies and follows best practices in web development.
 
-**Key Features:**
+## **Key Features:**
 - Seamless music streaming experience
 - Personalized playlists creation
 - Extensive library of songs across various genres

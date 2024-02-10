@@ -27,77 +27,56 @@ To get started with TuneWave, clone this repository to your local machine and fo
 
 Sure, here are the setup instructions for running your TuneWave project on localhost:
 
+**Setup Instructions for Localhost:**
+
 1. **Clone Repository**: 
-   Clone the repository from GitHub to your local machine using the following command:
+   Clone the repository to your local machine:
    ```
    git clone <repository-url>
    ```
 
 2. **Navigate to Directory**:
-   Navigate to the project directory:
+   Move to the project directory:
    ```
    cd TuneWave
    ```
 
-3. **Set Up Local Server**:
-   Here are some ways to set Up Local Server
-   Sure! Here's a list of different ways to run a localhost server on your machine along with steps to set them up in Windows:
+3. **Choose a Local Server Option**:
+   Select one of the following methods to set up a local server:
 
-  a. **Using Python's SimpleHTTPServer**:
+   a. **Python's SimpleHTTPServer**:
    - Open Command Prompt.
-   - Navigate to the directory where your files are located using `cd` command.
-   - Run the command: `python -m SimpleHTTPServer` for Python 2 or `python -m http.server` for Python 3.
-   - Open your web browser and go to `http://localhost:8000` to view your files.
-
-  b. **Using Node.js and Express**:
-   - Install Node.js from [nodejs.org](https://nodejs.org).
-   - Open Command Prompt.
-   - Navigate to the directory where your files are located using `cd` command.
-   - Initialize a new Node.js project with `npm init`.
-   - Install Express.js by running `npm install express`.
-   - Create a JavaScript file (e.g., `server.js`) with the following code:
-
-     ```javascript
-     const express = require('express');
-     const app = express();
-     const port = 3000;
-
-     app.use(express.static(__dirname));
-
-     app.listen(port, () => {
-       console.log(`Server running at http://localhost:${port}/`);
-     });
+   - Navigate to your project directory.
+   - Run:
      ```
+     python -m SimpleHTTPServer 8000
+     ```
+     (For Python 3, use `python -m http.server 8000` instead)
+   - Visit `http://localhost:8000` in your browser.
 
-   - Run the server with the command: `node server.js`.
-   - Open your web browser and go to `http://localhost:3000` to view your files.
+   b. **Node.js and Express**:
+   - Install Node.js.
+   - Create a file named `server.js` in your project directory.
+   - Copy and paste the provided JavaScript code into `server.js`.
+   - Run:
+     ```
+     node server.js
+     ```
+   - Visit `http://localhost:3000` in your browser.
 
-  c. **Using XAMPP**:
-   - Download and install XAMPP from [apachefriends.org](https://www.apachefriends.org).
-   - Launch XAMPP Control Panel and start the Apache server.
-   - Place your files in the `htdocs` directory inside the XAMPP installation folder.
-   - Open your web browser and go to `http://localhost` to view your files.
+   c. **XAMPP or WAMP Server**:
+   - Install and start XAMPP/WAMP server.
+   - Place the project folder in the appropriate directory (`htdocs` for XAMPP, `www` for WAMP).
+   - Open your browser and visit `http://localhost`.
 
-  d. **Using WAMP Server**:
-   - Download and install WAMP Server from [wampserver.com](http://www.wampserver.com).
-   - Launch WAMP Server and start the Apache service.
-   - Place your files in the `www` directory inside the WAMP installation folder.
-   - Open your web browser and go to `http://localhost` to view your files.
+   d. **Visual Studio Code Live Server Extension**:
+   - Install Visual Studio Code and Live Server extension.
+   - Open the project folder in Visual Studio Code.
+   - Click on "Go Live" in the bottom right corner.
+   - Visit `http://localhost:5500` in your browser.
 
-  e. **Using Visual Studio Code Live Server Extension**:
-   - Install Visual Studio Code from [code.visualstudio.com](https://code.visualstudio.com).
-   - Install the Live Server extension.
-   - Open your HTML file in Visual Studio Code.
-   - Click on the "Go Live" button at the bottom right corner of the editor.
-   - Your default browser will open with your file served at `http://localhost:5500`.
+4. **Access Website**:
+   Open your browser and go to the specified localhost address based on the chosen method.
 
-Choose the method that best fits your needs and follow the respective steps to setup
-
-5. **Start Local Server**:
-   Start a local server to run the website
-
-6. **Access Website**:
-   Open your web browser and go to `http://localhost:8000`(if You are using python for Localhost, else follow the respective above steps )  to access TuneWave.
-
-7. **Explore**: 
-   Explore the website, enjoy seamless music streaming, create playlists, and discover new tracks!
+5. **Explore**: 
+   Enjoy exploring TuneWave! Stream music, create playlists, and discover new tracks.

@@ -1,7 +1,7 @@
 # TuneWave
 A Wynk Music inspired clone offering seamless audio listening, personalized playlists, and a vast song library. Built with HTML, CSS, and JavaScript.
 
-**Project Name: TuneWave - A Wynk Music Clone**
+## **Project Name: TuneWave - A Wynk Music Clone**
 
 **Description:**
 TuneWave is a project inspired by the popular music streaming platform, Wynk Music. It serves as a clone, replicating some of the key features and functionalities of Wynk Music while adding unique elements and customization options. With TuneWave, users can enjoy seamless music streaming, create personalized playlists, explore a vast library of songs, and discover new tracks based on their preferences. The project is built using cutting-edge technologies and follows best practices in web development.
@@ -14,20 +14,20 @@ TuneWave is a project inspired by the popular music streaming platform, Wynk Mus
 - Customization options for users' preferences
 - Responsive design for compatibility across devices
 
-**Technologies Used:**
+## **Technologies Used:**
 - HTML5
 - CSS3
 - JavaScript
 
-**Contributions:**
+## **Contributions:**
 Contributions and feedback are welcome! Whether you're interested in adding new features, fixing bugs, or improving performance, feel free to fork this repository and submit pull requests. Together, let's make TuneWave the best music streaming experience for users.
 
-**Get Started:**
+## **Get Started:**
 To get started with TuneWave, clone this repository to your local machine and follow the setup instructions in the README.md file.
 
 Sure, here are the setup instructions for running your TuneWave project on localhost:
 
-**Setup Instructions for Localhost:**
+## **Setup Instructions for Localhost:**
 
 1. **Clone Repository**: 
    Clone the repository to your local machine:
@@ -57,6 +57,17 @@ Sure, here are the setup instructions for running your TuneWave project on local
    b. **Node.js and Express**:
    - Install Node.js.
    - Create a file named `server.js` in your project directory.
+   ```
+     const express = require('express');
+     const app = express();
+     const port = 3000;
+
+     app.use(express.static(__dirname));
+
+     app.listen(port, () => {
+     console.log(`Server running at http://localhost:${port}/`);
+     });
+   ```
    - Copy and paste the provided JavaScript code into `server.js`.
    - Run:
      ```

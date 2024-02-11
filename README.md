@@ -20,7 +20,9 @@ TuneWave is a project inspired by the popular music streaming platform, Wynk Mus
 - JavaScript
 
 ## **Get Started:**
-To get started with TuneWave Locally (else visit the remote website : https://musicplayer.wuaze.com) , clone this repository to your local machine and follow the setup instructions.
+To explore TuneWave remote visit : https://musicplayer.wuaze.com 
+
+To get started with TuneWave Locally, clone this repository to your local machine and follow the setup instructions.
 
 Here are the setup instructions for running your TuneWave project on localhost:
 

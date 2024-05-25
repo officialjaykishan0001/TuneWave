@@ -20,7 +20,7 @@ TuneWave is a project inspired by the popular music streaming platform, Wynk Mus
 - JavaScript
 
 ## **Get Started:**
-To explore TuneWave remote visit : https://musicplayer.free.nf 
+To explore TuneWave remote visit : https://tunewave.free.nf 
 
 To get started with TuneWave Locally, clone this repository to your local machine and follow the setup instructions.
 
